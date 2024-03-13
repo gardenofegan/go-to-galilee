@@ -29,6 +29,12 @@ const routes = [
   { path: '/galilee-in-communities', component: GalileeInCommunities },
   { path: '/about-us', component: AboutUs },
   { path: '/support', component: Support },
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    component: Home,
+    redirect: "/"
+  }
 ]
 
 const router = createRouter({
