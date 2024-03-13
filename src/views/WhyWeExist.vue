@@ -105,7 +105,7 @@
             alt="Sanctifies" style="width: 60px;" />
           <h4>Try Galilee with a friend.</h4>
           <p>
-            <a class="btn btn-bronze" href="#" role="button">How it Works</a>
+            <router-link to="/how-it-works" class="btn btn-bronze" role="button">How it Works</router-link>
           </p>
         </div>
         <div class="col-lg-4">
@@ -123,7 +123,7 @@
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to hear more about our vision for the Church?</h3>
       <p>
-        <a class="btn btn-bronze" href="#" role="button">Contact Us</a>
+        <router-link to="/support#contact-us" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
   </div>

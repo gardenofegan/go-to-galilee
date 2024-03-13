@@ -40,6 +40,17 @@ const routes = [
 const router = createRouter({
   history: createWebHashHistory(),
   routes, 
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 // const app = Vue.createApp({})

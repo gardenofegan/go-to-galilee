@@ -3,9 +3,9 @@
     <header class="pb-3">
       <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-md-center" style="background-image: none;">
         <h1 class="h4">
-          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <router-link to="/" class="d-flex align-items-center text-dark text-decoration-none">
             <img src="/src/assets/img/Galilee_logo_white_144.png" alt="Go to Galilee Logo" />
-          </a>
+          </router-link>
         </h1>
         <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

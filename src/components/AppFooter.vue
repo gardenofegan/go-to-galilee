@@ -11,9 +11,9 @@
           <span class="mx-2">|</span>
           <a href="#" class="text-white text-decoration-none">Download Galilee Card</a>
           <span class="mx-2">|</span>
-          <a href="#" class="text-white text-decoration-none">Contact Us</a>
+          <router-link to="/support#contact-us" class="text-white text-decoration-none">Contact Us</router-link>
           <span class="mx-2">|</span>
-          <a href="#" class="text-white text-decoration-none">Support Galilee</a>
+          <router-link to="/support" class="text-white text-decoration-none">Support Galilee</router-link>
         </span>
       </div>
     </div>

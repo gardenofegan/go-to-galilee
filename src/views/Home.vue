@@ -3,13 +3,9 @@
 </script>
 
 <template>
-    <div class="container mx-auto">
-    
-
-    
-
+  <div class="container mx-auto">
     <div class="px-4 py-5 my-5 text-center">
-      <div class="col-lg-6 mx-auto">
+      <div class="col-lg-8 mx-auto">
         <p class="lead mb-4">Cultivate Prayer.  Sustain Mission.  Build Unity.</p>
       </div>
     </div>
@@ -38,7 +34,7 @@
             Committed Christians who want to advance on their unique path to holiness, come together with the Holy Spirit to grow through a simple conversation.
           </p>
           <p>
-            <a href="#" class="text-color-bronze">How it Works</a>
+            <router-link to="/how-it-works" class="text-color-bronze">How it Works</router-link>
           </p>
         </div>
         <div class="col">
@@ -47,7 +43,7 @@
             We invite those who share our vision to partner with our ministry, helping us reach more people as we pray for unity in the Church.
           </p>
           <p>
-            <a href="#" class="text-color-bronze">Support Galilee</a>
+            <router-link to="/support" class="text-color-bronze">Support Galilee</router-link>
           </p>
         </div>
       </div>

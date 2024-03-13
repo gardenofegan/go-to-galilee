@@ -10,7 +10,7 @@
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Is the Holy Spirit calling you to partner with this Mission? Let's talk!</h3>
       <p>
-        <a class="btn btn-bronze" href="#" role="button">Contact Us</a>
+        <router-link to="/support#contact-us" class="btn btn-bronze" role="button">Contact Us</router-link>
       </p>
     </div>
     <div class="col-lg-6 mx-auto">
@@ -52,7 +52,7 @@
               Galilee is a ministry of relationships.<br/> 
               The best way to explain it is to talk to us.
             </h3>
-            <form class="mt-5">
+            <form class="mt-5" id="contact-us">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control form-bg-white" id="name" />

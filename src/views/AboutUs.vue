@@ -62,7 +62,7 @@
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to transform your city?</h3>
       <p>
-        <a class="btn btn-bronze" href="#" role="button">Contact Us</a>
+        <router-link to="/support#contact-us" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
   </div>
