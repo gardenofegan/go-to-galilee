@@ -6,7 +6,7 @@
   <div class="container-fluid bg-how-it-works py-6 text-center">
     <p class="lead mb-4">Galilee is an exercise in developing skills for deeper, personal prayer.</p>
   </div>
-  <div class="px-4 py-5 text-left bg-white text-color-dark-night">
+  <div class="px-4 py-5 text-left bg-white bg-grunge-white-image text-color-dark-night">
     <div class="col-lg-6 mx-auto">
       <h3>
         Growing Disciples who want to advance on their unique path to holiness, come 
@@ -75,7 +75,7 @@
   </div>
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
-      <h4>How does it work?</h4>
+      <h3>How does it work?</h3>
       <p>
         <a class="btn btn-bronze" href="#" role="button">Download Galilee Card</a>
       </p>

@@ -6,7 +6,7 @@
   <div class="container-fluid bg-why-we-exist py-6 text-center">
     <p class="lead mb-4">Galilee was born out of a longing for true, deep prayer.</p>
   </div>
-  <div class="px-4 py-5 text-left bg-white text-color-dark-night">
+  <div class="px-4 py-5 text-left bg-white bg-why-we-exist-white-image text-color-dark-night">
     <div class="col-lg-6 mx-auto">
       <p>
         Galilee exists in response to the Lord's call to return to Him, the true source of life-giving water.
@@ -52,7 +52,7 @@
       </div>
     </div>
   </div>
-  <div class="px-4 py-5 text-left bg-cloud text-color-dark-night">
+  <div class="px-4 py-5 text-left bg-cloud bg-why-we-exist-gray-image text-color-dark-night">
     <div class="col-lg-8 mx-auto">
       <h3 class="pb-5">Practicing Prayer with Galilee:</h3>
       <div class="row">
@@ -121,7 +121,7 @@
   </div>
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
-      <h4>Want to hear more about our vision for the Church?</h4>
+      <h3>Want to hear more about our vision for the Church?</h3>
       <p>
         <a class="btn btn-bronze" href="#" role="button">Contact Us</a>
       </p>

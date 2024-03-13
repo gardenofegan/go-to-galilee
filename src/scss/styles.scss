@@ -24,6 +24,8 @@
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
@@ -89,8 +91,13 @@ $success: #7952b3;
 // Custom styles
 //
 
+
 body {
   // padding: 1.5rem;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #1A313C url(../assets/img/home_bg_mapblue_1920.jpg) no-repeat center top;
 }
 
 .bg-nightsky {
@@ -105,16 +112,79 @@ body {
   background-color: #F0E9DD;
 }
 
+.border-bronze {
+  border-color: #a2834c !important;
+}
+
 .bg-why-we-exist {
   background: url(../assets/img/Why_assets/why_header_1920.png) no-repeat center center fixed; 
   background-size: cover;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-why-we-exist-white-image {
+  background: url(../assets/img/Why_assets/why_wave_background_1920_placeholder.jpg) no-repeat center bottom; 
+}
+
+.bg-why-we-exist-gray-image {
+  // background: url(../assets/img/Why_assets/why_wave_background_1920_placeholder_gray.jpg) no-repeat center bottom; 
 }
 
 .bg-how-it-works {
   background: url(../assets/img/What_Model_assets/What_Model_header_1920.jpg) no-repeat center center fixed; 
   background-size: cover;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-grunge-white-image {
+  background: url(../assets/img/What_Model_assets/What_Model_bg_grunge_1920.jpg) no-repeat center bottom; 
+}
+
+.bg-galilee-in-community {
+  background: url(../assets/img/What_Community_assets/What_Community_header_1920.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-about-us {
+  background: url(../assets/img/About_assets/AboutUs_header_1920.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-support {
+  background: url(../assets/img/Support_assets/Support_header_1920.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-white-image {
+  background: url(../assets/img/Support_assets/Support_bg_map_1920.jpg) no-repeat center top;
+}
+
+.form-bg-white {
+  color: #000213;
+  background-color: white;
+}
+
+.form-bg-white:focus {
+  color: #000213;
+  background-color: white;
 }
 
 .text-color-bronze {
@@ -127,8 +197,78 @@ body {
 
 .btn-bronze {
   background-color: #a2834c;
+  background-image: none;
+  &:hover {
+    background-color: #bd9a5a;
+    color: white;
+  }
 }
 
 .footer-logo {
   height: 45px;
+}
+
+h1 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1C5D67;
+}
+
+h4 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  color: #1C5D67;
+}
+
+h5 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: italic;
+  color: #a2834c;
+}
+
+p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+}
+
+p.lead {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: transparent;
+  background-image: none;
+  color: #a2834c;
+  text-decoration: underline;
+}
+
+.nav-active {
+  border-bottom: 2px solid #a2834c;
+  padding-bottom: 3px;
+}
+
+.nav-active-dropdown {
+  background-color: transparent;
+  background-image: none;
+  color: #a2834c;
+  text-decoration: underline;
 }
