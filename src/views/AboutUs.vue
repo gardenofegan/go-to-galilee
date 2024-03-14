@@ -7,8 +7,8 @@
     &#160;
   </div>
   <div class="px-4 py-5 text-left bg-white bg-white-image text-color-dark-night">
-    <div class="col-lg-6 mx-auto">
-      <p>
+    <div class="col-lg-8 pt-5 mt-5 mx-auto">
+      <p class="text-small">
         Galilee began in a coffee shop in an historic neighborhood, in 2019. It was just a couple of friends trying to 
         encourage one another in their faith. Different from the discipleship, accountability, and other programs they 
         had experienced, they discovered a natural way to walk and grow together. But they had no idea how many 
@@ -21,14 +21,14 @@
         The company is still young and inexperienced, but it is answering God's call, and people keep responding. <strong><em>This is 
         our time. A generation is hungry for the grace God is offering through Galilee.</em></strong>
       </p>
-      <p>
+      <p class="pb-5">
         Today, Galilee is used among youth, young adults, marriage prep couples, new believer programs, independent 
         small groups… the list goes on. And everywhere it goes, it works the same way: deepening relationship with 
         Christ, the Source of all fruitfulness in ministry, and increasing dependence on the Holy Spirit, the Source of all 
         unity.
       </p>
       <hr class="my-5 border border-bronze"/>
-      <h3>Our Founder's Journey</h3>
+      <h3 class="py-5">Our Founder's Journey</h3>
       <h5>The Church is called to mission, and each disciple with Her.</h5>
       <p>
         From his early years, Jacob wanted nothing more than to be on the front-lines of a Church-on-mission. His 

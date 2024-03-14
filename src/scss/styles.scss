@@ -119,7 +119,7 @@ body {
 .bg-why-we-exist {
   background: url(../assets/img/Why_assets/why_header_1920.png) no-repeat center center fixed; 
   background-size: cover;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,7 +136,7 @@ body {
 .bg-how-it-works {
   background: url(../assets/img/What_Model_assets/What_Model_header_1920.jpg) no-repeat center center fixed; 
   background-size: cover;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +149,7 @@ body {
 .bg-galilee-in-community {
   background: url(../assets/img/What_Community_assets/What_Community_header_1920.jpg) no-repeat center center fixed; 
   background-size: cover;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,7 +158,7 @@ body {
 .bg-about-us {
   background: url(../assets/img/About_assets/AboutUs_header_1920.jpg) no-repeat center center fixed; 
   background-size: cover;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,7 +167,7 @@ body {
 .bg-support {
   background: url(../assets/img/Support_assets/Support_header_1920.jpg) no-repeat center center fixed; 
   background-size: cover;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,7 +226,7 @@ h3 {
 h4 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   color: #1C5D67;
 }
@@ -242,7 +242,7 @@ h5 {
 p {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
 }
 
@@ -271,4 +271,9 @@ p.lead {
   background-image: none;
   color: #a2834c;
   text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
 }
