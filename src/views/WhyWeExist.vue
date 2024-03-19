@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <div class="container-fluid bg-why-we-exist py-6 text-center">
-    <p class="lead mb-4">Galilee was born out of a longing for true, deep prayer.</p>
+  <div class="container-fluid bg-helper text-center">
+    <div class="div-helper"><p class="lead">Galilee was born out of a longing for true, deep prayer.</p></div>
+    <img src="/src/assets/img/Why_assets/why_header_1920.png" alt="Support" class="bg-img" />
   </div>
   <div class="px-4 py-5 text-left bg-white bg-why-we-exist-white-image text-color-dark-night">
     <div class="col-lg-8 py-5 mx-auto">

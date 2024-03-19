@@ -4,7 +4,7 @@
 
 <template>
   <div class="container-fluid bg-about-us py-6 text-center">
-    &#160;
+    <img src="/src/assets/img/About_assets/AboutUs_header_1920.jpg" class="bg-img" />
   </div>
   <div class="px-4 py-5 text-left bg-white bg-white-image text-color-dark-night">
     <div class="col-lg-8 pt-5 mt-5 mx-auto">

@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <div class="container-fluid bg-support py-6 text-center">
-    <p class="lead mb-4">Cultivate Prayer.  Sustain Mission.  Build Unity.</p>
+  <div class="container-fluid bg-helper text-center">
+    <div class="div-helper"><p class="lead">Cultivate Prayer.  Sustain Mission.  Build Unity.</p></div>
+    <img src="/src/assets/img/Support_assets/Support_header_1920.jpg" alt="Support" class="bg-img" />
   </div>
   <div class="px-4 py-5 text-left bg-white bg-white-image text-color-dark-night text-center">
     <div class="col-lg-8 py-5 mx-auto">

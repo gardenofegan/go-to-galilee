@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <div class="container-fluid bg-galilee-in-community py-6 text-center">
-    <p class="lead mb-4">Building a culture that can sustain mission.</p>
+  <div class="container-fluid bg-helper text-center">
+    <div class="div-helper"><p class="lead">Building a culture that can sustain mission.</p></div>
+    <img src="/src/assets/img/What_Community_assets/What_Community_header_1920.jpg" alt="Support" class="bg-img" />
   </div>
   <div class="px-4 py-5 text-left bg-white bg-grunge-white-image text-color-dark-night">
     <div class="col-lg-8 mx-auto py-5">

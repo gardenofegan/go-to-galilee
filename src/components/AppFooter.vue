@@ -1,6 +1,6 @@
 <template>
   <div class="py-5 px-5">
-    <div class="d-md-flex justify-content-between align-items-md-center">
+    <div class="d-md-flex justify-content-md-between align-items-md-center">
       <div>
         <img src="/src/assets/img/Galilee_mobilemenu_logo_teal_193.png" class="footer-logo me-3" />
         <span class="text-white">©2024 Go To Galilee</span>

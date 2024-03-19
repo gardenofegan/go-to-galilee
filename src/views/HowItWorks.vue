@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <div class="container-fluid bg-how-it-works py-6 text-center">
-    <p class="lead mb-4">Galilee is an exercise in developing skills for deeper, personal prayer.</p>
+  <div class="container-fluid bg-helper text-center">
+    <div class="div-helper"><p class="lead">Galilee is an exercise in developing skills for deeper, personal prayer.</p></div>
+    <img src="/src/assets/img/What_Model_assets/What_Model_header_1920.jpg" alt="Support" class="bg-img" />
   </div>
   <div class="px-4 py-5 text-left bg-white bg-grunge-white-image text-color-dark-night">
     <div class="col-lg-8 mx-auto py-5">

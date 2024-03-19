@@ -156,21 +156,55 @@ body {
 }
 
 .bg-about-us {
-  background: url(../assets/img/About_assets/AboutUs_header_1920.jpg) no-repeat center center fixed; 
-  background-size: cover;
+  // background: url(../assets/img/About_assets/AboutUs_header_1920.jpg) no-repeat center center fixed; 
+  // background-size: cover;
   height: 400px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  &:img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
+
 }
 
-.bg-support {
-  background: url(../assets/img/Support_assets/Support_header_1920.jpg) no-repeat center center fixed; 
-  background-size: cover;
+.bg-helper {
   height: 400px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  .div-helper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .bg-white-image {
