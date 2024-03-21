@@ -18,5 +18,8 @@
         </span>
       </div>
     </div>
+    <div class="py-3">
+      <p class="small text-body-tertiary"><em>Go To Galilee is a 501(c)(3) charitable organization, EIN 85-3093287, funded primarily by individual contributors. Contributions are tax-deductible.</em></p>
+    </div>
   </div>
 </template>

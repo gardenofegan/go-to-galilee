@@ -311,3 +311,14 @@ p.lead {
   display: block;
   margin-top: 0; /* remove the gap so it doesn't close */
 }
+
+
+.big-box {
+  height: 80vh;
+  position: relative;
+}
+
+.stickme {
+  position: sticky;
+  top: 0;
+}

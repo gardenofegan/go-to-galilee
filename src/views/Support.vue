@@ -53,22 +53,22 @@
               Galilee is a ministry of relationships.<br/> 
               The best way to explain it is to talk to us.
             </h3>
-            <form class="mt-5" id="contact-us">
+            <form class="mt-5" id="contact-us" action="https://fabform.io/f/mYX__sa" method="post">
               <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control form-bg-white" id="name" />
+                <label for="name" class="form-label">Name<sup class="text-danger">*</sup></label>
+                <input type="text" name="name" class="form-control form-bg-white" id="name" required />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control form-bg-white" id="email" />
+                <label for="email" class="form-label">Email<sup class="text-danger">*</sup></label>
+                <input type="email" name="email" class="form-control form-bg-white" id="email" required />
               </div>
               <div class="mb-3">
                 <label for="phone" class="form-label">Phone</label>
-                <input type="phone" class="form-control form-bg-white" id="phone" />
+                <input type="phone" name="phone" class="form-control form-bg-white" id="phone" />
               </div>
               <div class="mb-3">
-                <label for="note" class="form-label">Note</label>
-                <textarea class="form-control form-bg-white" id="note" rows="3"></textarea>
+                <label for="note" class="form-label">Note<sup class="text-danger">*</sup></label>
+                <textarea class="form-control form-bg-white" name="note" id="note" rows="3" required></textarea>
               </div>
               <div class="text-center">
                 <button type="submit" class="btn btn-bronze btn-lg">Submit</button>

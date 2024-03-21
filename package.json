@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@vueuse/components": "^10.9.0",
+    "@vueuse/core": "^10.9.0",
     "bootstrap": "^5.3.3",
     "vue": "^3.4.15",
     "vue-router": "^4.3.0"

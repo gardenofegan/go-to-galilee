@@ -1,4 +1,34 @@
 <script setup>
+import { ref } from 'vue'
+import { vElementVisibility } from '@vueuse/components'
+
+const boxOne = ref(null)
+const boxOneIsVisible = ref(false)
+
+const boxTwo = ref(null)
+const boxTwoIsVisible = ref(false)
+
+const boxThree = ref(null)
+const boxThreeIsVisible = ref(false)
+
+const boxFour = ref(null)
+const boxFourIsVisible = ref(false)
+
+function onBoxOneVisibility(state) {
+  boxOneIsVisible.value = state
+}
+
+function onBoxTwoVisibility(state) {
+  boxTwoIsVisible.value = state
+}
+
+function onBoxThreeVisibility(state) {
+  boxThreeIsVisible.value = state
+}
+
+function onBoxFourVisibility(state) {
+  boxFourIsVisible.value = state
+}
 
 </script>
 
@@ -33,8 +63,8 @@
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night">
     <div class="col-lg-8 mx-auto">
       <h3>Practicing Prayer with Galilee can bear fruit in many ways.</h3>
-      <div class="py-5">
-        <div class="col-lg-10 mx-auto">
+      <div class="py-5 big-box box-1" ref="boxOne"  v-element-visibility="onBoxOneVisibility">
+        <div :class="boxOneIsVisible ? 'stickme col-lg-10 mx-auto py-5' : 'col-lg-10 mx-auto py-5'">
           <div class="row">
             <div class="col-lg-3">
               <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_sanctifies.png" class="img-fluid"
@@ -46,6 +76,57 @@
                 Every Galilee reveals how God is walking with you,
                 helps you listen for His invitations, and prepares 
                 you for your next “yes”!
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="py-5 big-box box-2" ref="boxTwo" v-element-visibility="onBoxTwoVisibility">
+        <div :class="boxTwoIsVisible ? 'stickme col-lg-10 mx-auto py-5' : 'col-lg-10 mx-auto py-5'">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_connects.png" class="img-fluid"
+                alt="Connects" />
+            </div>
+            <div class="col-lg-9">
+              <h4>Connects</h4>
+              <p>
+                No one is meant to journey alone! Galilee establishes and strengthens communal connections.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="py-5 big-box box-3" ref="boxThree" v-element-visibility="onBoxThreeVisibility">
+        <div :class="boxThreeIsVisible ? 'stickme col-lg-10 mx-auto py-5' : 'col-lg-10 mx-auto py-5'">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_unites.png" class="img-fluid"
+                alt="Unites" />
+            </div>
+            <div class="col-lg-9">
+              <h4>Unites</h4>
+              <p>
+                We are all one body. Galilee enables us to honor what God is doing in one another and encourages a spirit of peace and collaboration
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="py-5 big-box box-4" ref="boxFour" v-element-visibility="onBoxFourVisibility">
+        <div :class="boxFourIsVisible ? 'stickme col-lg-10 mx-auto py-5' : 'col-lg-10 mx-auto py-5'">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_solidifies.png" class="img-fluid"
+                alt="Solidifies" />
+            </div>
+            <div class="col-lg-9">
+              <h4>Solidifies</h4>
+              <p>
+                We build our identity on Christ, the Rock. Galilee brings to light what Jesus wants for us in our communities, so we can become who He wants us to be.
               </p>
             </div>
           </div>
