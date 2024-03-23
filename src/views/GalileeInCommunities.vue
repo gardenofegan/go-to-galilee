@@ -1,5 +1,5 @@
 <script setup>
-
+  import pdfUrl from '/src/assets/pdf/Galilee_card_single.pdf'
 </script>
 
 <template>
@@ -69,7 +69,7 @@
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to learn more?</h3>
       <p>
-        <a class="btn btn-bronze" href="../Galilee_card_single.pdf" target="_blank" role="button">Download Galilee Card</a>
+        <a class="btn btn-bronze" :href="pdfUrl" target="_blank" role="button">Download Galilee Card</a>
       </p>
     </div>
   </div>
