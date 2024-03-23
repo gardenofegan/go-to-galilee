@@ -79,7 +79,7 @@
     <div class="col-lg-6 py-5 mx-auto">
       <h3>How does it work?</h3>
       <p>
-        <a class="btn btn-bronze" href="#" role="button">Download Galilee Card</a>
+        <a class="btn btn-bronze" href="/go-to-galilee/src/assets/Galilee_card_single.pdf" target="_blank" role="button">Download Galilee Card</a>
       </p>
     </div>
   </div>

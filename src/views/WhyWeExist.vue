@@ -196,7 +196,7 @@ function onBoxFourVisibility(state) {
             alt="discipleship strategy" style="width: 60px;" />
           <h4 class="py-3">See how Galilee can fit into<br/>your discipleship strategy.</h4>
           <p>
-            <a class="btn btn-bronze" href="#" role="button">Learn More</a>
+            <router-link to="/how-it-works" class="btn btn-bronze" role="button">Learn More</router-link>
           </p>
         </div>
       </div>

@@ -29,13 +29,13 @@
           <div class="col-lg-6 py-5 mx-auto text-center">
             <h4>Ready to start a partnership?</h4>
             <p>
-              <a class="btn btn-bronze" href="#" target="_blank" role="button">Donate</a>
+              <a class="btn btn-bronze" href="https://donorbox.org/galilee-mission-partners" target="_blank" role="button">Donate</a>
             </p>
           </div>
           <div class="col-lg-6 py-5 mx-auto text-center">
             <h4>Update your current partnership</h4>
             <p>
-              <a class="btn btn-bronze" href="#" target="_blank" role="button">Donor Portal</a>
+              <a class="btn btn-bronze" href="https://donorbox.org/galilee-mission-partners" target="_blank" role="button">Donor Portal</a>
             </p>
           </div>
           <div class="col-lg-10 py-5 mx-auto text-center">
