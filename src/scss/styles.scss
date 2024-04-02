@@ -100,12 +100,20 @@ body {
   background: #1A313C url(../assets/img/home_bg_mapblue_1920.jpg) no-repeat center top;
 }
 
+.footer {
+  background-color: #1A313C;
+}
+
 .bg-nightsky {
   background-color: #09191C;
 }
 
 .bg-cloud {
   background-color: #E5E6E7;
+}
+
+.bg-cloud-lite {
+  background-color: #f1f1f1;
 }
 
 .bg-light-brown {
@@ -253,13 +261,13 @@ h1 {
 h3 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   color: #1C5D67;
 }
 
 h4 {
   font-family: "Alegreya Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   font-style: normal;
   color: #1C5D67;
@@ -268,7 +276,7 @@ h4 {
 h5 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 22px;
   font-style: italic;
   color: #a2834c;
 }

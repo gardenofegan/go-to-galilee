@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 px-5">
+  <div class="py-5 px-5 footer">
     <div class="d-md-flex justify-content-md-between align-items-md-center">
       <div>
         <img src="/src/assets/img/Galilee_mobilemenu_logo_teal_193.png" class="footer-logo me-3" />
@@ -7,8 +7,6 @@
       </div>
       <div>
         <span class="text-white">
-          <a href="#" class="text-white text-decoration-none">Resources</a>
-          <span class="mx-2">|</span>
           <a href="#" class="text-white text-decoration-none">Download Galilee Card</a>
           <span class="mx-2 d-none d-sm-inline">|</span>
           <br class="d-sm-none d-inline"/>

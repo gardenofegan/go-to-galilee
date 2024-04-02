@@ -17,8 +17,8 @@
       </p>
       <p>
         We weren't trying to start a ministry, yet that was exactly what God would ask of Jacob in August. <em>"I want to 
-        transform cities with this. Make this your full-time job."</em>" So the nonprofit, Go To Galilee, was formed in September. 
-        The company is still young and inexperienced, but it is answering God's call, and people keep responding. <strong><em>This is 
+        transform cities with this. Make this your full-time job."</em> So the nonprofit, Go To Galilee, was formed in September. 
+        The company is still young and inexperienced, but it is answering God's call, and people keep responding.  <strong><em>This is 
         our time. A generation is hungry for the grace God is offering through Galilee.</em></strong>
       </p>
       <p class="pb-5">
@@ -38,8 +38,8 @@
       <h5>Our thirst is as great as the Living Water that satisfies it. Until the disciple drinks without 
         ceasing, a mission is an opportunity to die of thirst.</h5>
       <p>
-        He pursued every opportunity to teach, lead, and participate in the Church, that he could find.  Some endeavors lasted a month—others, a year. Time seemed to wear down his zeal for particular ministries. Then Holy 
-        Spirit gave him a nudge and he came to a realization: “I don't think I know how to pray.” He had no idea how 
+        He pursued every opportunity to teach, lead, and participate in the Church, that he could find.  Some endeavors lasted a month—others a year. Time seemed to wear down his zeal for particular ministries. Then Holy 
+        Spirit gave him a nudge and he came to a realization: “I don't think I know how to pray.”  He had no idea how 
         essential prayer would be to his mission.
       </p>
       <h5>
@@ -61,7 +61,7 @@
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to transform your city?</h3>
-      <p>
+      <p class="pt-3">
         <router-link to="/support#contact-us" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>

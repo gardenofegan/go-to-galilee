@@ -49,7 +49,7 @@ function onBoxFourVisibility(state) {
       </h3>
     </div>
   </div>
-  <div class="px-4 py-5 text-left bg-cloud text-color-dark-night">
+  <div class="px-4 py-5 text-left bg-cloud-lite text-color-dark-night">
     <div class="col-lg-8 py-5 mx-auto">
       <p class="fst-italic">
         For my people have committed two evils: they have forsaken me, the fountain of living
@@ -166,7 +166,7 @@ function onBoxFourVisibility(state) {
           </p>
         </div>
         <div class="col-lg-3">
-          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_sanctifies.png" class="img-fluid"
+          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_solidifies.png" class="img-fluid"
             alt="Solidifies" style="width: 75px;" />
           <h4 class="pt-3">Solidifies</h4>
           <p>
@@ -196,7 +196,7 @@ function onBoxFourVisibility(state) {
             alt="discipleship strategy" style="width: 60px;" />
           <h4 class="py-3">See how Galilee can fit into<br/>your discipleship strategy.</h4>
           <p>
-            <router-link to="/how-it-works" class="btn btn-bronze" role="button">Learn More</router-link>
+            <router-link to="/galilee-in-communities" class="btn btn-bronze" role="button">Learn More</router-link>
           </p>
         </div>
       </div>
@@ -205,8 +205,8 @@ function onBoxFourVisibility(state) {
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to hear more about our vision for the Church?</h3>
-      <p>
-        <router-link to="/support#contact-us" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
+      <p class="pt-3">
+        <router-link to="/support" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
   </div>

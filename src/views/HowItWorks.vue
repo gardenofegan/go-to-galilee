@@ -78,7 +78,7 @@
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
       <h3>How does it work?</h3>
-      <p>
+      <p class="pt-3">
         <a class="btn btn-bronze" :href="pdfUrl" target="_blank" role="button">Download Galilee Card</a>
       </p>
     </div>

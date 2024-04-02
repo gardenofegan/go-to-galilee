@@ -22,7 +22,7 @@
   </div>
   <div class="px-4 py-5 text-left bg-light-brown text-color-dark-night">
     <div class="col-lg-8 mx-auto py-5">
-      <h3 class="text-center pb-5">Galilee can help growing disciples in many contexts throughout your community.</h3>
+      <h3 class="text-center pb-5">Starting with your ministry team, Galilee can help growing disciples in many contexts throughout your community.</h3>
     </div>
     <div class="col-lg-10 pb-5 mx-auto">
       <div class="row">
@@ -68,8 +68,8 @@
   <div class="px-4 py-5 text-left bg-cloud text-color-dark-night text-center">
     <div class="col-lg-6 py-5 mx-auto">
       <h3>Want to learn more?</h3>
-      <p>
-        <a class="btn btn-bronze" :href="pdfUrl" target="_blank" role="button">Download Galilee Card</a>
+      <p class="pt-3">
+        <router-link to="/support" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
   </div>
