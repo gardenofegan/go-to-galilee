@@ -1,18 +1,16 @@
 <template>
   <div class="container py-2 px-3 mx-auto">
     <header class="pb-1">
-      <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-md-center" style="background-image: none;">
-        <h1 class="h4">
-          <router-link to="/" class="d-flex align-items-center text-dark text-decoration-none">
+      <nav class="navbar navbar-expand-lg" style="background-image: none;">
+      <div class="container-fluid">
+        <router-link to="/" class="navbar-brand text-dark text-decoration-none">
             <img src="/src/assets/img/Galilee_logo_white_144.png" alt="Go to Galilee Logo" />
           </router-link>
-        </h1>
-        <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <router-link to="/why-we-exist" :class="$route.path.includes('exist') ? 'nav-link text-white nav-active' : 'nav-link text-white'">Why We Exist</router-link>
               </li>
@@ -37,9 +35,10 @@
               </li>
             </ul>
           </div>
-        </div>
-        
+      </div>  
       </nav>
+      
+      
     </header>
   </div>
 </template>

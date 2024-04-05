@@ -293,7 +293,7 @@ p.lead {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: italic;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -329,4 +329,9 @@ p.lead {
 .stickme {
   position: sticky;
   top: 0;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
