@@ -60,7 +60,7 @@ function onBoxFourVisibility(state) {
       </h4>
     </div>
   </div>
-  <div class="px-4 py-5 text-left bg-cloud text-color-dark-night">
+  <!-- <div class="px-4 py-5 text-left bg-cloud text-color-dark-night">
     <div class="col-lg-8 mx-auto">
       <h3>Practicing Prayer with Galilee can bear fruit in many ways.</h3>
       <div class="py-5 big-box box-1" ref="boxOne"  v-element-visibility="onBoxOneVisibility">
@@ -209,5 +209,5 @@ function onBoxFourVisibility(state) {
         <router-link to="/support" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
-  </div>
+  </div> -->
 </template>

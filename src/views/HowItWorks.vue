@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="px-4 py-5 text-left bg-light-brown text-color-dark-night">
-    <div class="col-lg-10 py-5 mx-auto">
+    <div class="col-lg-8 py-5 mx-auto">
       <h3 class="text-center pb-5">Galilee depends on the graces of four pillars:</h3>
       <div class="row">
         <div class="col-lg-3">

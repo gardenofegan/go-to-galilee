@@ -13,6 +13,7 @@ import '../scss/styles.scss'
 
 // Import only the Bootstrap components we need
 import { Popover } from 'bootstrap';
+import Thanks from '../views/Thanks.vue'
 
 
 // Create an example popover
@@ -29,6 +30,7 @@ const routes = [
   { path: '/galilee-in-communities', component: GalileeInCommunities },
   { path: '/about-us', component: AboutUs },
   { path: '/support', component: Support },
+  { path: '/thanks', component: Thanks },
   {
     path: "/:catchAll(.*)",
     name: "NotFound",
