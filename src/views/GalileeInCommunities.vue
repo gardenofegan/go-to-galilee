@@ -30,7 +30,7 @@
           <img src="/src/assets/img/What_Community_assets/What_Community_MarriagePrep.jpg" class="img-fluid"
             alt="Marriage Prep" />
           <h4 class="pt-5">Marriage Prep</h4>
-          <p>
+          <p class="mb-sm-3 mb-md-3">
             Galilee leads engaged couples deeper in prayer while integrating them into the community, through relationships with other couples.
           </p>
         </div>
@@ -38,7 +38,7 @@
           <img src="/src/assets/img/What_Community_assets/What_Community_YAMinistry.jpg" class="img-fluid"
             alt="Young Adult Ministry" />
           <h4 class="pt-5">Young Adult Ministry</h4>
-          <p>
+          <p class="mb-sm-3 mb-md-3">
             Participants learn to put words to their spiritual needs and experiences, deepening the practice of prayer and encouraging confidence in spiritual growth.
           </p>
         </div>

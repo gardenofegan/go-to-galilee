@@ -135,6 +135,7 @@ function onBoxFourVisibility(state) {
       </div>
     </div>
   </div>
+-->
   <div class="px-4 py-5 text-left bg-cloud bg-why-we-exist-gray-image text-color-dark-night">
     <div class="col-lg-8 mx-auto pb-5">
       <h3 class="pb-5">Practicing Prayer with Galilee:</h3>
@@ -158,7 +159,7 @@ function onBoxFourVisibility(state) {
           </p>
         </div>
         <div class="col-lg-3">
-          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_unites.png" class="img-fluid"
+          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_solidifies.png" class="img-fluid"
             alt="Unites" style="width: 75px;" />
           <h4 class="pt-3">Unites</h4>
           <p>
@@ -166,7 +167,7 @@ function onBoxFourVisibility(state) {
           </p>
         </div>
         <div class="col-lg-3">
-          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_solidifies.png" class="img-fluid"
+          <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_unites.png" class="img-fluid"
             alt="Solidifies" style="width: 75px;" />
           <h4 class="pt-3">Solidifies</h4>
           <p>
@@ -209,5 +210,5 @@ function onBoxFourVisibility(state) {
         <router-link to="/support" class="btn btn-bronze" href="#" role="button">Contact Us</router-link>
       </p>
     </div>
-  </div> -->
+  </div>
 </template>
