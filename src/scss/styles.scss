@@ -239,6 +239,7 @@ body {
   
 }
 
+
 .bg-white-image {
   background: url(../assets/img/Support_assets/Support_bg_map_1920.jpg) no-repeat center top;
 }
@@ -358,4 +359,12 @@ p.lead {
 .nav-item {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  p.lead {
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

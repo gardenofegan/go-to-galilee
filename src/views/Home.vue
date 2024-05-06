@@ -4,8 +4,8 @@
 
 <template>
   <div class="container mx-auto">
-    <div class="px-4 py-5 my-5 text-center">
-      <div class="col-lg-8 py-5 mx-auto">
+    <div class="px-4 py-lg-5 py-0 my-5 text-center">
+      <div class="col-lg-8 py-lg-5 py-0 mx-auto">
         <p class="lead mb-4">Cultivate Prayer.  Sustain Mission.  Build Unity.</p>
       </div>
     </div>

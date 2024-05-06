@@ -50,7 +50,7 @@ function onBoxFourVisibility(state) {
     </div>
   </div>
   <div class="px-4 py-5 text-left bg-cloud-lite text-color-dark-night">
-    <div class="col-lg-8 py-5 mx-auto">
+    <div class="col-lg-6 py-5 mx-auto">
       <p class="fst-italic">
         For my people have committed two evils: they have forsaken me, the fountain of living
         waters, and hewed out cisterns for themselves, broken cisterns that hold no water.
@@ -140,37 +140,37 @@ function onBoxFourVisibility(state) {
     <div class="col-lg-8 mx-auto pb-5">
       <h3 class="pb-5">Practicing Prayer with Galilee:</h3>
       <div class="row gx-5 pb-5">
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_sanctifies.png" class="img-fluid"
             alt="Sanctifies" style="width: 75px;" />
-          <h4 class="pt-3">Sanctifies</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Sanctifies</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             Every Galilee reveals how God is walking with you,
             helps you listen for His invitations, and prepares 
             you for your next “yes”!
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_connects.png" class="img-fluid"
             alt="Connects" style="width: 75px;" />
-          <h4 class="pt-3">Connects</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Connects</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             No one is meant to journey alone! Galilee establishes and strengthens communal connections.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_solidifies.png" class="img-fluid"
             alt="Unites" style="width: 75px;" />
-          <h4 class="pt-3">Unites</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Unites</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             We are all one body. Galilee enables us to honor what God is doing in one another and encourages a spirit of peace and collaboration.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/Fruits logo icons/pngs/why_unites.png" class="img-fluid"
             alt="Solidifies" style="width: 75px;" />
-          <h4 class="pt-3">Solidifies</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Solidifies</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             We build our identity on Christ, the Rock. Galilee brings to light what Jesus wants for us in our communities, so we can become who He wants us to be.
           </p>
         </div>
@@ -184,19 +184,19 @@ function onBoxFourVisibility(state) {
         How can Galilee help you in your journey?
       </h3>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/icon_TryGalilee_60px.svg" class="img-fluid"
             alt="Sanctifies" style="width: 60px;" />
-          <h4 class="py-3">Try Galilee with a friend.</h4>
-          <p>
+          <h4 class="py-3 text-center text-md-start">Try Galilee with a friend.</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             <router-link to="/how-it-works" class="btn btn-bronze" role="button">How it Works</router-link>
           </p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center text-md-start">
           <img src="/src/assets/img/Why_assets/icon_Community_60px.svg" class="img-fluid"
             alt="discipleship strategy" style="width: 60px;" />
-          <h4 class="py-3">See how Galilee can fit into<br/>your discipleship strategy.</h4>
-          <p>
+          <h4 class="py-3 text-center text-md-start">See how Galilee can fit into<br/>your discipleship strategy.</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             <router-link to="/galilee-in-communities" class="btn btn-bronze" role="button">Learn More</router-link>
           </p>
         </div>

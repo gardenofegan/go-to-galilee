@@ -24,35 +24,35 @@
     <div class="col-lg-8 py-5 mx-auto">
       <h3 class="text-center pb-5">Galilee depends on the graces of four pillars:</h3>
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/What_Model_assets/icon_Witness_44px.svg" class="img-fluid"
             alt="Witness" style="width: 44px;" />
-          <h4 class="pt-3">Witness</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Witness</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             Proclaiming God's activity in your life blesses everyone who hears it—including yourself.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/What_Model_assets/icon_Reflection_44px.svg" class="img-fluid"
             alt="Reflection" style="width: 44px;" />
-          <h4 class="pt-3">Reflection</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Reflection</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             God is always working and speaking in our lives. Reflecting on what God is doing in you continues building familiarity with His presence and voice.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/What_Model_assets/icon_Prayer_44px.svg" class="img-fluid"
             alt="Prayer" style="width: 44px;" />
-          <h4 class="pt-3">Prayer</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Prayer</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             The Christian encounters Scripture as the Word of God, Himself. We practice and grow in relationship through this encounter.
           </p>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 text-center text-md-start">
           <img src="/src/assets/img/What_Model_assets/icon_HolySpirit_44px.svg" class="img-fluid"
             alt="Holy Spirit" style="width: 44px;" />
-          <h4 class="pt-3">Holy Spirit</h4>
-          <p>
+          <h4 class="pt-3 text-center text-md-start">Holy Spirit</h4>
+          <p class="text-center text-md-start mb-5 mb-lg-0">
             We entrust our witness, our prayer, ourselves, to the Holy Spirit who sanctifies and transforms our hearts.
           </p>
         </div>

@@ -26,26 +26,26 @@
     </div>
     <div class="col-lg-10 pb-5 mx-auto">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-5">
           <img src="/src/assets/img/What_Community_assets/What_Community_MarriagePrep.jpg" class="img-fluid"
             alt="Marriage Prep" />
-          <h4 class="pt-5">Marriage Prep</h4>
-          <p class="mb-sm-3 mb-md-3">
+          <h4 class="pt-4 pt-md-5">Marriage Prep</h4>
+          <p>
             Galilee leads engaged couples deeper in prayer while integrating them into the community, through relationships with other couples.
           </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-5">
           <img src="/src/assets/img/What_Community_assets/What_Community_YAMinistry.jpg" class="img-fluid"
             alt="Young Adult Ministry" />
-          <h4 class="pt-5">Young Adult Ministry</h4>
-          <p class="mb-sm-3 mb-md-3">
+          <h4 class="pt-4 pt-md-5">Young Adult Ministry</h4>
+          <p>
             Participants learn to put words to their spiritual needs and experiences, deepening the practice of prayer and encouraging confidence in spiritual growth.
           </p>
         </div>
         <div class="col-lg-4">
           <img src="/src/assets/img/What_Community_assets/What_Community_NewMember.jpg" class="img-fluid"
             alt="New Member Initiation" />
-          <h4 class="pt-5">New Member Initiation</h4>
+          <h4 class="pt-4 pt-md-5">New Member Initiation</h4>
           <p>
             Galilee creates a beautiful point of contact and connection for those new to your community— or to Christianity. It invites them to engage in a way that serves their spiritual growth—and that of the community.
           </p>
