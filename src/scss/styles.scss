@@ -97,7 +97,13 @@ body {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: #1A313C url(../assets/img/home_bg_mapblue_1920.jpg) no-repeat center top;
+
+  /* Assuming you want this on the body, but it can be any element */
+  background-color: #1A313C;
+  background-image: url(../assets/img/home_bg_mapblue_1920.jpg); /* Set your image path */
+  background-position: top center; /* Align the top edge of the image with the top of the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: auto 750px; /* Set the width to auto (keep aspect ratio) and the height to 750px */
 }
 
 .footer {
