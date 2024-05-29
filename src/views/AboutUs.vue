@@ -38,7 +38,7 @@
       <h5>Our thirst is as great as the Living Water that satisfies it. Until the disciple drinks without 
         ceasing, a mission is an opportunity to die of thirst.</h5>
       <p>
-        He pursued every opportunity to teach, lead, and participate in the Church, that he could find.  Some endeavors lasted a month—others a year. Time seemed to wear down his zeal for particular ministries. Then Holy 
+        He pursued every opportunity to teach, lead, and participate in the Church that he could find.  Some endeavors lasted a month—others a year. Time seemed to wear down his zeal for particular ministries. Then the Holy 
         Spirit gave him a nudge and he came to a realization: “I don't think I know how to pray.”  He had no idea how 
         essential prayer would be to his mission.
       </p>

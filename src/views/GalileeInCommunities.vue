@@ -22,7 +22,7 @@
   </div>
   <div class="px-4 py-5 text-left bg-light-brown text-color-dark-night">
     <div class="col-lg-8 mx-auto py-5">
-      <h3 class="text-center pb-5">Starting with your ministry team, Galilee can help growing disciples in many contexts throughout your community.</h3>
+      <h3 class="text-center pb-5">Starting with your ministry team, Galilee can help Growing Disciples in many contexts throughout your community.</h3>
     </div>
     <div class="col-lg-10 pb-5 mx-auto">
       <div class="row">
