@@ -1,3 +1,6 @@
+<script setup>
+  import pdfUrl from '/src/assets/pdf/Galilee_card_single.pdf'
+</script>
 <template>
   <div class="py-5 px-5 footer">
     <div class="d-md-flex justify-content-md-between align-items-md-center">
@@ -7,7 +10,7 @@
       </div>
       <div>
         <span class="text-white">
-          <a href="#" class="text-white text-decoration-none">Download Galilee Card</a>
+          <a :href="pdfUrl" target="_blank" class="text-white text-decoration-none">Download Galilee Card</a>
           <span class="mx-2 d-none d-sm-inline">|</span>
           <br class="d-sm-none d-inline"/>
           <router-link to="/support#contact-us" class="text-white text-decoration-none">Contact Us</router-link>
